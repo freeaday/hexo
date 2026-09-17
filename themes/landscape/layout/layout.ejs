@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<%- partial('_partial/head') %>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+      <div class="outer">
+        <section id="main"><%- body %></section>
+        <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
+          <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
+        <% } %>
+      </div>
+      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+    </div>
+    <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/after-footer') %>
+  </div>
+<div style="display:none;">
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "idn48z42c0");
+</script>
+
+<!-- Default Statcounter code for Freeaday.com
+http://www.freeaday.com/ -->
+<script type="text/javascript">
+var sc_project=7997251; 
+var sc_invisible=0; 
+var sc_security="5b28132b"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="hit counter" href="https://statcounter.com/" target="_blank" rel="noopener"><img
+class="statcounter"
+src="https://c.statcounter.com/7997251/0/5b28132b/0/"
+alt="hit counter"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+<script type="text/javascript">
+window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};
+heap.load("1556188001");
+</script>
+
+<a title="GDPR-compliant Web Analytics" href="https://clicky.com/101299355"><img decoding="async" alt="Clicky" src="//static.getclicky.com/media/links/badge.gif" border="0" /></a>
+<script async data-id="101299355" src="//static.getclicky.com/js"></script>
+
+<script async src="https://analytics.umami.is/script.js" data-website-id="84b25e6b-83a9-4bb4-9ec6-f299b1c56a37"></script>
+
+<script type="text/javascript">
+(function(window, document, dataLayerName, id) {
+window[dataLayerName]=window[dataLayerName]||[],window[dataLayerName].push({start:(new Date).getTime(),event:"stg.start"});var scripts=document.getElementsByTagName('script')[0],tags=document.createElement('script');
+function stgCreateCookie(a,b,c){var d="";if(c){var e=new Date;e.setTime(e.getTime()+24*c*60*60*1e3),d="; expires="+e.toUTCString()}document.cookie=a+"="+b+d+"; path=/"}
+var isStgDebug=(window.location.href.match("stg_debug")||document.cookie.match("stg_debug"))&&!window.location.href.match("stg_disable_debug");stgCreateCookie("stg_debug",isStgDebug?1:"",isStgDebug?14:-1);
+var qP=[];dataLayerName!=="dataLayer"&&qP.push("data_layer_name="+dataLayerName),isStgDebug&&qP.push("stg_debug");var qPString=qP.length>0?("?"+qP.join("&")):"";
+tags.async=!0,tags.src="https://freeaday.containers.piwik.pro/"+id+".js"+qPString,scripts.parentNode.insertBefore(tags,scripts);
+!function(a,n,i){a[n]=a[n]||{};for(var c=0;c<i.length;c++)!function(i){a[n][i]=a[n][i]||{},a[n][i].api=a[n][i].api||function(){var a=[].slice.call(arguments,0);"string"==typeof a[0]&#038;&#038;window[dataLayerName].push({event:n+"."+i+":"+a[0],parameters:[].slice.call(arguments,1)})}}(i[c])}(window,"ppms",["tm","cm"]);
+})(window, document, 'dataLayer', '7c957f73-ee03-40ff-8bca-6e2987e05be3');
+</script>
+
+<script>
+!function(){window.analytics||(window.analytics=[]),window.analytics.methods=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group","on","once","off"],window.analytics.factory=function(a){return function(){var t=Array.prototype.slice.call(arguments);return t.unshift(a),window.analytics.push(t),window.analytics}};for(var a=0;a<window.analytics.methods.length;a++){var t=window.analytics.methods[a];window.analytics[t]=window.analytics.factory(t)}analytics.load=function(a){if(!document.getElementById("dreamdata-analytics")){window.__DD_TEMP_ANALYTICS__=window.analytics;var t=document.createElement("script");t.async=!0,t.id="dreamdata-analytics",t.type="text/javascript",t.src="https://cdn.dreamdata.cloud/scripts/analytics/v1/dreamdata.min.js",t.addEventListener("load",function(t){if(analytics&#038;&#038;analytics.initialize)for(analytics.initialize({"Dreamdata.io":{apiKey:a}});window.__DD_TEMP_ANALYTICS__.length>0;){var i=window.__DD_TEMP_ANALYTICS__.shift(),n=i.shift();analytics[n]&&analytics[n].apply(analytics,i)}},!1);var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(t,i)}},analytics.load("be3d1a2c-b96e-4a6c-bc64-17ad62974531"),analytics.page()}();
+</script>
+
+<script src="https://www.w3counter.com/tracker.js?id=139059"></script>
+
+<!-- Varioqub experiments -->
+<script type="text/javascript">
+(function(e, x, pe, r, i, me, nt){
+e[i]=e[i]||function(){(e[i].a=e[i].a||[]).push(arguments)},
+me=x.createElement(pe),me.async=1,me.src=r,nt=x.getElementsByTagName(pe)[0],nt.parentNode.insertBefore(me,nt)})
+(window, document, 'script', 'https://abt.s3.yandex.net/expjs/latest/exp.js', 'ymab');
+ymab('metrika.11599117', 'init'/*, {clientFeatures}, {callback}*/);
+</script>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6fb4bb1e75454828861f2fbbfac59c2c"}'></script><!-- End Cloudflare Web Analytics -->
+
+</div>
+</body>
+</html>
