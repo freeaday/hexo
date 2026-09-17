@@ -10,7 +10,7 @@ date: 2025-08-20 14:00:50
 ---
 
 每天搜索就白捡积分？这个微软的“隐藏福利”，我必须安利给你！
-网址：[https://rewards.bing.com/welcome?rh=oV9_QArTDlI&ref=rafsrchae](https://rewards.bing.com/welcome?rh=oV9_QArTDlI&ref=rafsrchae)
+网址：[https://rewards.bing.com/welcome?rh=405CEF51&ref=rafsrchae](https://rewards.bing.com/welcome?rh=405CEF51&ref=rafsrchae)
 朋友们，我今天要曝光一个自己偷偷薅了好久的羊毛——**微软积分商城（Microsoft Rewards）**。
 事情是这样的：上个月我用攒了俩月的积分，免费换了一个月 Xbox Game Pass，闺蜜知道后当场“质问”我为什么不早告诉她😅。所以今天，我决定大方分享出来。
 <!-- more -->
