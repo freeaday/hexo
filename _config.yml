@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 免费资源网hexo静态演示站
-subtitle: ''
-description: ''
-keywords:
-author: 免费资源网hexo静态演示站
+title: 免费资源网静态演示站hexo博客
+subtitle: '免费资源网 https://www.freeaday.com/'
+description: '免费资源网'
+keywords: 免费资源网,免费资源,免费
+author: 免费资源网
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
