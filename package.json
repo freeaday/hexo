@@ -7,7 +7,8 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "build:statichost": "hexo generate --config _config.yml,_config.statichost.yml"
+    "build:statichost": "hexo generate --config _config.yml,_config.statichost.yml",
+    "build:deploybase": "hexo generate --config _config.yml,_config.deploybase.yml"
   },
   "hexo": {
     "version": "8.1.2"
