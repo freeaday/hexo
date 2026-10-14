@@ -5,3 +5,5 @@ https://freeaday.github.io/hexo/
 https://freeaday.sites.deploybase.eu/
 
 https://freeaday.statichost.page/
+
+每增加一个，要在package.json加一行，再加一个_config.xxx.yml文件。
