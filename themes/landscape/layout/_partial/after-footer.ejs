@@ -13,12 +13,12 @@
 </script>
 <% } %>
 
-<%- js('js/jquery-3.6.4.min.js') %>
-
-<% if (theme.fancybox){ %>
+<!-- <%- js('js/jquery-3.6.4.min.js') %> -->
+<script src="https://s4.zstatic.net/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- <% if (theme.fancybox){ %>
   <%- js('fancybox/jquery.fancybox.min.js') %>
-<% } %>
-
+<% } %> -->
+<script src="https://s4.zstatic.net/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <%- js('js/script') %>
 <%- partial('gauges-analytics') %>
 
