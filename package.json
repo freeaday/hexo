@@ -8,7 +8,7 @@
     "deploy": "hexo deploy",
     "server": "hexo server",
     "build:statichost": "hexo generate --config _config.yml,_config.statichost.yml",
-    "build:deploybase": "hexo generate --config _config.yml,_config.deploybase.yml"
+    "build:deploybase": "hexo generate --config _config.yml,_config.deploybase.yml",
     "build:cloudzyro": "hexo generate --config _config.yml,_config.cloudzyro.yml"
   },
   "hexo": {
