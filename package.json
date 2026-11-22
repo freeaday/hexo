@@ -9,7 +9,8 @@
     "server": "hexo server",
     "build:statichost": "hexo generate --config _config.yml,_config.statichost.yml",
     "build:deploybase": "hexo generate --config _config.yml,_config.deploybase.yml",
-    "build:vercel": "hexo generate --config _config.yml,_config.vercel.yml"
+    "build:vercel": "hexo generate --config _config.yml,_config.vercel.yml",
+    "build:netlify": "hexo generate --config _config.yml,_config.netlify.yml"
   },
   "hexo": {
     "version": "8.1.2"
